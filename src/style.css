@@ -1,13 +1,24 @@
 :root {
-    --primary-color: #6c63ff;
-    --secondary-color: #f5f2fe;
+    --wild-watermelon: #DA3F87;
+    --seal-brown:#2A1A3C;
+    --blue-gem: #44318D;
+    --silver-chalice: #A4B3B6;
+    --livid: #8165A6;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
+
+body{
+
+    background-image: url('images/bgimg');
+}
+
 
 h1{
     text-align: center;
     font-family: 'Merriweather', serif;
     margin-top: 70px;
+
+}
 p{
     font-weight: bold;
     text-align: center;
