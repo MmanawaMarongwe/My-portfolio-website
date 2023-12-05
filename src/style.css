@@ -7,10 +7,9 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
 
-body{
-    background-image: url('/images/bgimg.jpg');
-    background-size: cover;
-}
+  body{
+    background-color: var(--seal-brown);
+  }
 
 
 h1{
@@ -72,3 +71,35 @@ p{
     color: var(--silver-chalice);
   }
   
+  .navbar-bar-toggler .navbar-toggler-icon {
+    color: var(--silver-chalice);
+  }
+
+  @media (max-width: 768px) {
+    h1{
+      text-align: center;
+      font-size: 20px;
+      margin-top: 70px;
+    }
+    h2{
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Roboto Slab',serif;
+    color: var(--wild-watermelon);
+    }
+
+    p{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px;
+    }
+
+    .navigation-links a{
+      margin-top: 5px;
+      font-size: 10px;
+      border-radius: 40px;
+      padding: 15px 10px;
+      text-decoration: none;
+    }    
+  }
