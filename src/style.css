@@ -158,6 +158,30 @@ img{
   text-align: center;
 }
 
+footer .contact-box{
+  background: var(--custom-orange);
+  margin: 50px 100px;
+  padding: 30px 120px;
+  border-radius: 10px;
+  color: var(--white);
+}
+
+.collab-text{
+  color: var(--white);
+}
+
+#contact-box-link{
+  color: var(--white);
+  background-color: var(--blue-grey);
+  padding: 20px;
+}
+
+.social-media-links a i{
+  margin: 10px 20px;
+  font-size: 30px;
+  color: var(--custom-orange);
+}
+
   @media (max-width: 768px) {
     h1{
       text-align: center;
