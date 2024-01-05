@@ -247,4 +247,11 @@ footer .contact-box{
       font-size: 15px;
     }
 
+    .social-media-links a i{
+      margin: 5px 5px;
+      margin-top: 40px;
+      font-size: 10px;
+      color: var(--custom-orange);
+    }
+
   }
