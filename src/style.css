@@ -200,6 +200,7 @@ footer .contact-box{
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
     color: var(--white);
+    margin-top: 20px;
     }
 
     .content{
@@ -253,9 +254,12 @@ footer .contact-box{
       font-size: 15px;
     }
     
+    .work-pic{
+      height: 350px;
+    }
     .social-media-links a i{
-      margin: 5px 5px;
-      margin-top: 40px;
+      margin: auto 5px;
+      margin-top: auto;
       font-size: 10px;
       color: var(--custom-orange);
     }
